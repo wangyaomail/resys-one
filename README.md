@@ -30,7 +30,7 @@
 
 ## notes
 - will be busy in next few months ( or years )
-- if you got any interest, contact me at [www.dendarii.cn](www.dendarii.cn)
+- if you got any interest, contact me at [www.dendarii.cn](http://www.dendarii.cn)
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
