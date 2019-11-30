@@ -1,8 +1,18 @@
 # resys-one
+
 ### used for:
 - show how to separate real-time computing from offline computing
 - show how to isolate business engineering from algorithmic engineering
 - entry-level enterprise recommendation system
+
+## need for run:
+- hadoop
+- hbase
+- hive
+- kafka
+- activemq
+- couchbase
+- mongodb
 
 ## packages
 
