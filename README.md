@@ -1,8 +1,8 @@
 # resys-one
 
 ### used for:
-- show how to separate real-time computing from offline computing
-- show how to isolate business engineering from algorithmic engineering
+- show how to isolate real-time computing from offline computing
+- show how to isolate business calculation from algorithmic calculation
 - entry-level enterprise recommendation system
 
 ## need for run:
