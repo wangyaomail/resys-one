@@ -1,0 +1,16 @@
+{"_id":"来源","parent":"root","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"来源-测试","parent":"来源","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航","parent":"root","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-社会","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-财经","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-大象号","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-娱乐","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-国际","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-时政","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-体育","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-生活","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-专题","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-推荐","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-短视频","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-新乡","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}
+{"_id":"导航-头条","parent":"导航","_class":"xmt.resys.content.bean.mongo.HBArticleCategory"}

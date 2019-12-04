@@ -1,0 +1,2 @@
+{"_id":"b_all","_class":"xmt.resys.user.bean.mongo.HBModule","name":"后台所有接口","urls":[{"url":"/*/b/**","method":"ALL"}],"feature":"这个接口可以访问系统所有权限","record":true,"category":"历史权限-接口"}
+{"_id":"no_auth","name":"无需登录接口","record":false,"category":"历史权限-接口","urls":[{"url":"/*/b/auth/token/login","method":"POST"},{"url":"/*/f/**","method":"POST"},{"url":"/*/f/**","method":"GET"},{"url":"/*/f/**","method":"PUT"}],"feature":"配置在这里的接口不需要用户有任何权限","vn":{"$numberLong":"1"},"_class":"xmt.resys.user.bean.mongo.HBModule"}

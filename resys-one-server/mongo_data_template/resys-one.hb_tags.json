@@ -1,0 +1,17 @@
+{"_id":"题材","w":1.0,"parent":"root","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"河南","w":1.0,"parent":"省份","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"中央","w":1.0,"parent":"省份","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"北京","w":1.0,"parent":"省份","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"山西","w":1.0,"parent":"省份","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"陕西","w":1.0,"parent":"省份","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"高晓松","w":1.0,"parent":"热度","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"热度","w":0.5,"parent":"root","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"王宝强","w":1.0,"parent":"热度","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"四川","w":0.3,"parent":"省份","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"浙江","w":0.3,"parent":"省份","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"湖北","w":0.3,"parent":"省份","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"湖南","w":0.3,"parent":"省份","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"省份","w":0.3,"parent":"root","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"娱乐","w":0.3,"parent":"题材","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"冒险","w":0.3,"parent":"题材","_class":"xmt.resys.content.bean.mongo.HBTag"}
+{"_id":"彩虹桥","w":1.0,"parent":"热度","_class":"xmt.resys.content.bean.mongo.HBTag"}

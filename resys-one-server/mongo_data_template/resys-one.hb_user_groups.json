@@ -1,0 +1,2 @@
+{"_id":"system","_class":"xmt.resys.user.bean.mongo.HBUserGroup","roles":["role_staff"],"leader":{"$ref":"hb_users","$id":"12479083317097"},"name":"管理组","feature":"系统管理员，能够使用系统所有功能"}
+{"_id":"staff","_class":"xmt.resys.user.bean.mongo.HBUserGroup","roles":["role_staff"],"leader":{"$ref":"hb_users","$id":""},"name":"广电成员","feature":"广电内部成员，能够使用本系统一般功能"}

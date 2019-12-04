@@ -1,0 +1,2 @@
+{"_id":"role_staff","name":"成员","_class":"xmt.resys.user.bean.HBRole","modules":[],"jwt":"ROLE_ADMIN"}
+{"_id":"role_admin","name":"管理员","_class":"xmt.resys.user.bean.HBRole","modules":["b_all"]}
