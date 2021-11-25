@@ -71,9 +71,9 @@ public class TagService extends BaseCRUDService<HBTag> {
     }
 
     /**
-     * 定时将所有tag导出为一个文件
+     * 将所有tag导出为一个文件
      */
-    @Scheduled(cron = "0 1 * * * *")
+//    @Scheduled(cron = "0 1 * * * *")
     public boolean exportAllTag() {
         if (exportLock.writeLock().tryLock()) {
             File tagFile = new File(sysConfService.getVideobaseAllPath() + "/tag_all_"

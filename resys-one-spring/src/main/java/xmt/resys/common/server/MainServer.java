@@ -36,12 +36,12 @@ public class MainServer extends BaseService {
 
     @PostConstruct
     public void init() {
-        logger.info("start init huaban cu.");
+        logger.info("start init resys-one cu.");
         // 配置柔性关闭，用于当tomcat关闭时，必须清空队列才能彻底退出，不在内部队列留线程
         initSystemSoftExit();
         // 启动一些在系统启动完之后才能启动的东西
         initPostSeq();
-        logger.info("init huaban cu success.");
+        logger.info("init resys-one cu success.");
     }
 
     public SysConfService conf() {

@@ -5,7 +5,7 @@ import java.io.File;
 public class CleanerUtil {
     public static void cleanFolderByTime(String path,
                                          long expireTime) {
-        if (path != null && path.equals("/") && path.equals("/data/huaban/static")) {
+        if (path != null && path.equals("/") && path.equals("/data/zzti/static")) {
             File root = new File(path);
             File[] filearray = root.listFiles();
             if (filearray != null && filearray.length > 0) {

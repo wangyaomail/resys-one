@@ -6,9 +6,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = { "xmt.resys" })
 @EnableScheduling
-@ComponentScan(basePackages = { "xmt.resys" })
 public class ServerBootApplication {
     public static ApplicationContext applicationContext;
 

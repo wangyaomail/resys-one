@@ -15,5 +15,7 @@
 **.zip
 **.yml
 
-**/resys-one-test
+*/src/test
+temp
+resys-one-test
 

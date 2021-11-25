@@ -36,9 +36,9 @@ public class ArticleService extends BaseCRUDService<HBArticle> {
     }
 
     /**
-     * 定时将所有article导出为一个文件
+     * 将所有article导出为一个文件
      */
-    @Scheduled(cron = "0 1 * * * *")
+//    @Scheduled(cron = "0 1 * * * *")
     public boolean exportAllArticle() {
         if (exportLock.writeLock().tryLock()) {
             File videobaseFile = new File(sysConfService.getVideobaseAllPath() + "/videobase_all_"

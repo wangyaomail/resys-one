@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.context.ApplicationContext;
 
 import xmt.resys.ServerBootApplication;
-import xmt.resys.resys.dao.RecArticleUserCouchbaseDao;
+import xmt.resys.resys.dao.RecArticleUserDao;
 import xmt.resys.resys.service.ResysService;
 
 public class TestSample {
@@ -45,7 +45,7 @@ public class TestSample {
         try {
             ApplicationContext applicationContext = SpringApplication.run(ServerBootApplication.class,
                                                                           args);
-            RecArticleUserCouchbaseDao dao = applicationContext.getBean(RecArticleUserCouchbaseDao.class);
+            RecArticleUserDao dao = applicationContext.getBean(RecArticleUserDao.class);
             System.out.println(dao.findOne("123"));
             System.exit(0);
         } catch (Exception e) {

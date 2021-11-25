@@ -47,6 +47,7 @@ public class ResysController extends BaseController {
         try {
             feedNumber = Integer.parseInt(request.getParameter("feedNumber"));
         } catch (Exception e) {
+            // 解析不了就不作处理了
         }
         feedNumber = feedNumber > mainServer.conf().getFeedNumberMax()
                 ? mainServer.conf().getFeedNumberMax()

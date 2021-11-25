@@ -90,7 +90,7 @@ public class SysConfService {
     private String springDataMongodbAuthenticationDatabase;
     private String springDataMongodbUsername;
     private String springDataMongodbPassword;
-    private String mongoHomeLoc = "/data/xmt/libs/mongo";
+    private String mongoHomeLoc = "/zzti/libs/mongodb";
     private String apiPrefixName = "resys";
     private String apiVersion = "v1";
     private String springApplicationName = "resys-one";
@@ -123,26 +123,14 @@ public class SysConfService {
     private String tokenFstAesSalt = "02b48fa08edb14a017baac4888065e1f"; // 秘钥第一段加秘的key
     private String tokenSndAesSalt = "8c78c93bca36d479ea00a33308af1243"; // 秘钥第二段加密的key
     private String defaultUserInitPwd = "Abc123456";
-    // couchbase配置
-    private Boolean switchOnCouchbase = false; // 是否打开Couchbase
-    private String couchbaseUrl = "xmt"; // couchbase的ip地址，如果是couchbase集群，这里应使用逗号分开
-    private String couchbaseBkt = "resys"; // couchbase分桶名，类似mongo的数据库，我们所有的数据都保存在一个桶下，以不同的前缀区分
-    private String couchbaseUsername = "root";
-    private String couchbasePassword = "123456";
-    private Integer couchbaseRecArticleUserTTL = 3 * 24 * 3600; // 给用户推荐的feed的保存时间3day
-    private String couchbaseRecArticleUserPrefix = "rau_"; // 用户feed的前缀名
-    private Integer couchbaseRecArticleCorrelationTTL = 3 * 24 * 3600; // 相关新闻的保存时间3day
-    private String couchbaseRecArticleCorrelationPrefix = "cor_"; // 相关新闻的前缀名
-    private Integer couchbaseRecArticleHotTTL = 3 * 24 * 3600; // 热度的保存时间3day
-    private String couchbaseRecArticleHotPrefix = "hot_"; // 热度的前缀名
     // kafka配置
     private Boolean switchOnKafka = false; // 是否打开kafka
-    private String kafkaUrl = "xmt:9092"; // kafka的ip地址，如果是集群用逗号隔开
+    private String kafkaUrl = "zzti:9092"; // kafka的ip地址，如果是集群用逗号隔开
     private String kafkaUserListClickTopicName = "user_list_click"; // 用户点击一条新闻向kafka发送的点击消息
     private Integer kafkaUserListClickTopicPartition = 1; // topic对应的分区数
     private String kafkaGroupId = "resys"; // groupid对所有consumer都一样
     // zookeeper配置
-    private String zookeeperConnector = "xmt:2181"; // zookeeper连接地址，如果有多个zookeeper那么用逗号分隔开
+    private String zookeeperConnector = "zzti:2181"; // zookeeper连接地址，如果有多个zookeeper那么用逗号分隔开
     // hadoop配置
     private Boolean switchOnHadoop = false; // 是否打开hadoop
     // hbase配置
@@ -152,7 +140,7 @@ public class SysConfService {
     private Boolean switchOnActivemq = false; // 是否打开activemq
     private String activemqUser = "admin";
     private String activemqPwd = "admin";
-    private String activemqUrl = "tcp://xmt:61616";// 如果是主从，url用逗号分隔
+    private String activemqUrl = "tcp://zzti:61616";// 如果是主从，url用逗号分隔
     // private Boolean activemqTransacted = true;
     // private Boolean activemqIsQueue = true; // topic信息消费后不删掉
     private Boolean activemqTopicIfDurable = true; // 如果是topic，是否要保持
@@ -165,5 +153,5 @@ public class SysConfService {
     private Integer feedNumberMax = 50; // 单次最多返回的推荐条数
     private Integer feedHistoryMaxLength = 1000; // 用户的历史记录最多保存多少条
     // 关于videobase
-    private String videobaseAllPath = "/xmt/data/export"; // 每日全量导出的数据库文件位置
+    private String videobaseAllPath = "/zzti/data/export"; // 每日全量导出的数据库文件位置
 }
