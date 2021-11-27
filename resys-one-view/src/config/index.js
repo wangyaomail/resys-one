@@ -8,8 +8,8 @@ export default {
    * @description api请求基础路径
    */
   baseUrl: {
-    dev: "http://localhost:9001/resys/v1/b",
-    test: "http://192.168.17.132:9001/resys/v1/b",
+    dev: "http://localhost:9001/resys/v2/b",
+    test: "http://192.168.17.132:9001/resys/v2/b",
     product: "http://---",
   },
   /**

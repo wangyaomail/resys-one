@@ -30,6 +30,11 @@ public class Page<T> implements Pageable {
     }
 
     @Override
+    public Pageable withPage(int pageNumber) {
+        return null;
+    }
+
+    @Override
     public long getOffset() {
         return (getPageNumber() - 1) * getPageSize();
     }
