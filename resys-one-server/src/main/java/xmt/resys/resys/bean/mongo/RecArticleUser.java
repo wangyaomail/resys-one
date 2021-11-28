@@ -15,7 +15,7 @@ import java.util.List;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-@Document(collection = "ro_rec_article_user")
+@Document(collection = "rec_article_user")
 public class RecArticleUser extends BaseMgBean<RecArticleUser> {
     @Id
     protected String id;

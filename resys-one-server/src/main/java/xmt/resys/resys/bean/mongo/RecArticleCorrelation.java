@@ -14,7 +14,7 @@ import java.util.List;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-@Document(collection = "ro_rec_article_cor")
+@Document(collection = "rec_article_cor")
 public class RecArticleCorrelation extends BaseMgBean<RecArticleCorrelation>
         implements Serializable {
     @Id
