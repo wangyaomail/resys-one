@@ -52,16 +52,10 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--
-        <dependency>
-            <groupId>com.couchbase.client</groupId>
-            <artifactId>java-client</artifactId>
-        </dependency>
-        -->
         <dependency>
             <groupId>xmt</groupId>
             <artifactId>resys-one-util</artifactId>
-            <version>${project.parent.version}</version>
+            <version>${resys-one.version}</version>
         </dependency>
     </dependencies>
     <build>
@@ -108,10 +102,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- <plugin> <artifactId>maven-dependency-plugin</artifactId> 
-                <configuration> <outputDirectory>${project.build.directory}/lib</outputDirectory> 
-                <excludeTransitive>false</excludeTransitive> <stripVersion>true</stripVersion> 
-                </configuration> </plugin> -->
         </plugins>
     </build>
 </project>

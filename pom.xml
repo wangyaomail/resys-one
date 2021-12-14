@@ -26,7 +26,7 @@
     </modules>
 
     <properties>
-        <resys-one.version>2.0.1</resys-one.version>
+        <resys-one.version>2.0.2</resys-one.version>
         <java.version>1.8</java.version>
         <javadoc.skip>true</javadoc.skip>
         <javasrc.skip>true</javasrc.skip>
@@ -51,11 +51,11 @@
         <repository>
             <id>alimaven</id>
             <name>aliyun maven</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <url>https://maven.aliyun.com/repository/central</url>
         </repository>
         <repository>
             <id>central</id>
-            <url>http://repo1.maven.org/maven2/</url>
+            <url>https://repo1.maven.org/maven2/</url>
         </repository>
     </repositories>
 
